@@ -1,0 +1,385 @@
+<!-- <!DOCTYPE html>
+    All HTML documents must start with a <!DOCTYPE> declaration. The declaration is not an 
+    HTML tag. It is an "information" to the browser about what document type to expect.
+
+    Learn More: https://developer.mozilla.org/en-US/docs/Glossary/Doctype
+-->
+
+<!DOCTYPE html>
+
+<!-- <html>: The HTML Document / Root element
+    The <html> HTML element represents the root (top-level element) of an HTML document, 
+    so it is also referred to as the root element. All other elements must be descendants 
+    of this element.
+
+    Learn More: https://devdocs.io/html/element/html
+-->
+<html></html>
+<html lang="en"></html>
+
+<!-- <head>: The Document Metadata (Header) element
+    The <head> HTML element contains machine-readable information (metadata) about 
+    the document, like its title, scripts, and style sheets.
+
+    Note: <head> primarily holds information for machine processing, not human-readability. 
+    For human-visible information, like top-level headings and listed authors, see the <header> element.
+
+        Learn More: https://devdocs.io/html/element/head
+-->
+
+<head></head>
+
+<!-- <meta>: The metadata element
+    The <meta> HTML element represents metadata that cannot be represented by other HTML meta-related 
+    elements, like <base>, <link>, <script>, <style> or <title>.
+
+        Learn More: https://devdocs.io/html/element/meta
+-->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- <title>: The Document Title element
+    The <title> HTML element defines the document's title that is shown in a browser's title bar or 
+    a page's tab. It only contains text; tags within the element are ignored.
+
+    Learn More: https://devdocs.io/html/element/title
+-->
+
+<title>HTML CodePlayGround</title>
+
+<!-- <body>: The Document Body element
+    The <body> HTML element represents the content of an HTML document. 
+    There can be only one <body> element in a document.
+
+        Learn More: https://devdocs.io/html/element/body
+-->
+
+<body></body>
+
+<!--: Comments
+    This is a Comment and it will not be interpreted by Browser.
+
+    Learn More: https://www.w3schools.com/html/html_comments.asp
+-->
+
+<!-- <header>: Header tags
+    The <header> HTML element represents introductory content, typically a group of introductory or 
+    navigational aids. It may contain some heading elements but also a logo, a search form, an author 
+    name, and other elements.
+
+    Learn More: https://devdocs.io/html/element/header
+-->
+
+<header></header>
+
+<!-- <h1>–<h6>: The HTML Section Heading elements
+    The <h1> to <h6> HTML elements represent six levels of section headings. 
+    <h1> is the highest section level and <h6> is the lowest.
+
+    Learn More: https://devdocs.io/html/element/heading_elements
+-->
+
+<h1>1. hn where n=(1,2,3,4,5,6) (Heading):</h1>
+<h2>Heading level 2</h2>
+<h3>Heading level 3</h3>
+<h4>Heading level 4</h4>
+<h5>Heading level 5</h5>
+<h6>Heading level 6</h6>
+
+<!-- <br>: The Line Break element, New line, break
+    The <br> HTML element produces a line break in text (carriage-return). 
+    It is useful for writing a poem or an address, where the division of lines is significant.
+
+    Learn More: https://devdocs.io/html/element/br
+-->
+
+<h1>2. br (The Line Break element):</h1>
+ORA!<br>
+Ora Ora Ora Ora<br>
+Ora Ora Ora Ora<br>
+OORRAAAAAA!!!!<br>
+
+<!-- <hr>: The Thematic Break (Horizontal Rule) element
+    The <hr> HTML e lement represents a thematic break between paragraph-level elements: 
+        for example, a change of scene in a story, or a shift of topic within a section.
+
+        <hr> tag can have attributes like size
+
+        Learn More: https://devdocs.io/html/element/hr
+-->
+
+<h1>3. hr (Horizontal Rule):</h1>
+This is a This is Default Horizontal Rule.
+<hr>
+This is Horizontal Rule with size=5.
+<hr size="5" noshade>
+
+<!-- <center>: The Centered Text element 
+    The <center> HTML element is a block-level element that displays its block-level 
+        or inline contents centered horizontally within its containing element. 
+        The container is usually, but isn't required to be, <body>.
+
+    This tag has been deprecated in HTML 4 (and XHTML 1) in favor of the CSS text-align 
+        property, which can be applied to the <div> element or to an individual <p>. 
+            For centering blocks, use other CSS properties like margin-left and margin-right 
+            and set them to auto (or set margin to 0 auto).
+
+            Learn More: https://devdocs.io/html/element/center
+-->
+
+<h1>4. Center (The Centered Text element):</h1>
+
+<h3>    <center>This text will be centered. 
+                    <br>
+        So will this paragraph.</center>    </h3>
+
+<!-- <p>: The Paragraph element
+    The <p> HTML element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from 
+    adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content,
+    such as images or form fields.
+
+    Paragraphs are block-level elements, and notably will automatically close if another block-level element is parsed before the 
+    closing </p> tag.
+
+    Learn More: https://devdocs.io/html/element/p
+-->
+
+<h1>5. p (The Paragraph element):</h1>
+
+<p> This is the first paragraph of text.
+    This is the first paragraph of text.
+    This is the first paragraph of text.
+    This is the first paragraph of text. </p>
+
+<p> This is the second paragraph.
+    This is the second paragraph.
+    This is the second paragraph.
+    This is the second paragraph. </p>
+
+<!-- <em>: The Emphasis element
+    The <em> HTML element marks text that has stress emphasis. The <em> element can be nested, with each level of nesting indicating 
+    a greater degree of emphasis.
+
+    Learn More: https://devdocs.io/html/element/em
+-->
+
+<h1>6. em (The Emphasis element):</h1>
+
+<p>Get out of bed <em>now</em>!</p>
+
+<!-- <i></i>: The Idiomatic Text element
+    The <i> HTML element represents a range of text that is set off from the normal text for some reason, such as idiomatic text, 
+    technical terms, taxonomical designations, among others. Historically, these have been presented using italicized type, 
+    which is the original source of the <i> naming of this element.
+
+    Learn More: https://devdocs.io/html/element/i
+-->
+
+<h1>7. i (The Idiomatic Text element):</h1>
+
+<p>Get out of bed <i>now</i>!</p>
+
+<!-- <strong></strong>: The Strong Importance element
+    The <strong> HTML element indicates that its contents have strong importance, seriousness, or urgency. Browsers typically render 
+    the contents in bold type.
+
+    Learn More: https://devdocs.io/html/element/strong
+-->
+
+<h1>8. strong (The Strong Importance element):</h1>
+
+<p>Get out of bed <strong>now</strong>!</p>
+
+<!-- <b></b>: The Bold or The Bring Attention To element
+    The <b> HTML element is used to draw the reader's attention to the element's contents, which are not otherwise granted special 
+    importance. This was formerly known as the Boldface element, and most browsers still draw the text in boldface. However, 
+    you should not use <b> for styling text; instead, you should use the CSS font-weight property to create boldface text, 
+    or the <strong> element to indicate that text is of special importance.
+
+    Learn More: https://devdocs.io/html/element/b
+-->
+
+<h1>9. b (The Bold or The Bring Attention To element):</h1>
+
+<p>Get out of bed <b>now</b>!</p>
+
+<!-- <ul>: The Unordered List element
+    The <ul> HTML element represents an unordered list of items, typically rendered as a bulleted list.
+    They can be nested.
+
+    Learn More: https://devdocs.io/html/element/ul
+-->
+
+<h1>10. ul (The Unordered List element)</h1>
+
+<ul>
+    <li>Milk</li>
+    <li>Cheese
+        <ul>
+            <li>Blue cheese</li>
+            <li>Feta</li>
+        </ul>
+    </li>
+</ul>
+
+<!-- <ol>: The Ordered List element
+    The <ol> HTML element represents an ordered list of items — typically rendered as a numbered list.
+    Note: Ordered and Unordered List can be nested with each other.
+
+    Learn More: https://devdocs.io/html/element/ol
+-->
+
+<h1>11. ol (The Ordered List element)</h1>
+
+<ol>
+    <li>Fee</li>
+    <li>Fi</li>
+    <li>Fo</li>
+    <li>Fum</li>
+</ol>
+
+<!-- Using Roman Numeral type -->
+
+<ol type="i">
+    <li>Introduction</li>
+    <li>List of Grievances</li>
+    <li>Conclusion</li>
+</ol>
+
+<!-- Using the start attribute -->
+
+<ol start="4">
+    <li>Speedwalk Stu</li>
+    <li>Saunterin' Sam</li>
+    <li>Slowpoke Rodriguez</li>
+  </ol>
+  
+<!--<img>: The Image Embed element
+    The <img> HTML element embeds an image into the document.
+
+
+    1. The src attribute is required, and contains the path to the image you want to embed. it can be a URL
+    or a Local Path to Images.
+
+    2. The alt attribute holds a text description of the image, which isn't mandatory but is incredibly 
+    useful for accessibility — screen readers read this description out to their users so they know 
+    what the image means. Alt text is also displayed on the page if the image can't be loaded for some 
+    reason: for example, network errors, content blocking, or linkrot.
+
+    Learn more: https://devdocs.io/html/element/img
+
+-->
+
+<h1>12. img (The Image Embed element)</h1>
+
+<img src="https://cdn2.photostockeditor.com/c/2612/citrus%20fruit-sliced-grapefruits-food-food-image.jpg" alt="Grapefruit slice atop a pile of other slices">
+
+<img src="Grape.jpg" alt="Grapefruit slice atop a pile of other slices">
+
+<!--<a>: The Anchor element
+    The <a> HTML element (or anchor element), with its href attribute, creates a hyperlink to web pages, 
+    files, email addresses, locations in the same page, or anything else a URL can address.
+
+    Content within each <a> should indicate the link's destination. If the href attribute is present, 
+    pressing the enter key while focused on the <a> element will activate it.
+-->
+
+<!--href
+    The URL that the hyperlink points to. Links are not restricted to HTTP-based URLs — 
+    they can use any URL scheme supported by browsers:
+
+    Sections of a page with fragment URLs
+    Pieces of media files with media fragments
+    Telephone numbers with tel: URLs
+    Email addresses with mailto: URLs
+-->
+
+<h1>13. a (Anchor element)</h1>
+
+<p>You can reach Michael at:</p>
+
+<ul>
+  <li><a href="https://example.com">Website</a></li>
+  <li><a href="mailto:m.bluth@example.com">Email</a></li>
+  <li><a href="tel:+123456789">Phone</a></li>
+</ul>
+
+<!-- <table>: The Table element
+    The <table> HTML element represents tabular data — that is, information presented in a two-dimensional 
+    table comprised of rows and columns of cells containing data.
+
+    Learn More: https://devdocs.io/html/element/table
+-->
+
+<h1>14. table (The Table element)</h1>
+
+<p>Simple table with header</p>
+<table>
+  <tr>
+    <th>First name</th>
+    <th>Last name</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+  </tr>
+  <tr>
+    <td>Jane</td>
+    <td>Doe</td>
+  </tr>
+</table>
+
+<!-- <form>: The Form element
+    The <form> HTML element represents a document section containing interactive controls for submitting information.
+        
+    Learn More: https://devdocs.io/html/element/form
+-->
+
+<!-- <label>: The Input Label element
+    The <label> HTML element represents a caption for an item in a user interface.
+
+    Learn More: https://devdocs.io/html/element/label
+-->
+
+<!-- <input>: The Input (Form Input) element
+    The <input> HTML element is used to create interactive controls for web-based forms in order to accept data from the user; 
+    a wide variety of types of input data and control widgets are available, depending on the device and user agent. 
+    The <input> element is one of the most powerful and complex in all of HTML due to the sheer number of combinations of 
+    input types and attributes.
+
+    Learn More: https://devdocs.io/html/element/input
+-->
+
+<h1>15. form, label, input (The Form element, The Input Label element, The Input (Form Input) element)</h1>
+
+<form action="" method="get" class="form-example">
+    <div class="form-example">
+      <label for="name">Enter your name: </label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    <div class="form-example">
+      <label for="email">Enter your email: </label>
+      <input type="email" name="email" id="email" required>
+    </div>
+    <div class="form-example">
+      <input type="submit" value="Subscribe!">
+    </div>
+  </form>
+
+<!-- <textarea>: The Textarea element
+    The <textarea> HTML element represents a multi-line plain-text editing control, useful when you 
+    want to allow users to enter a sizeable amount of free-form text, for example a 
+    comment on a review or feedback form.
+
+    Learn More: https://devdocs.io/html/element/textarea
+-->
+<h1>16. Textarea (The Textarea element)</h1>
+
+<label for="story">Tell us your story:</label><br>
+
+<textarea id="story" name="story"
+          rows="5" cols="33">
+It was a dark and stormy night...
+</textarea>
